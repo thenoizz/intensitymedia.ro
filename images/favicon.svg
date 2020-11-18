@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>favicon</title>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 1.000000)">
+            <polygon id="Fill-22" fill="#000000" points="4 6 1 3.59733333 1 0 7.5 3"></polygon>
+            <polygon id="Fill-25" fill="#FFF100" points="0 10.2606811 0 15 7.5 10.6324036 7.5 4"></polygon>
+            <polygon id="Fill-22" fill="#00BFFF" transform="translate(11.750000, 3.000000) scale(-1, 1) translate(-11.750000, -3.000000) " points="11.5 6 8.5 3.59733333 8.5 0 15 3"></polygon>
+            <polygon id="Fill-25" fill="#FF008B" transform="translate(12.250000, 9.500000) scale(-1, 1) translate(-12.250000, -9.500000) " points="8.5 10.2606811 8.5 15 16 10.6324036 16 4"></polygon>
+        </g>
+    </g>
+</svg>

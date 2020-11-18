@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intensity Media | T-Shirts, Print, Design, Photo</title>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Intensity Media | T-Shirts, Print, Design, Photo">
+    <link rel="canonical" href="https://intensitymedia.ro/">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Intensity Media | T-Shirts, Print, Design, Photo">
+    <meta property="og:image" content="images/splash-preview.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <script src="https://kit.fontawesome.com/2502756f27.js" crossorigin="anonymous"></script>
+    <style>
+        /* global styles */
+        /* @import url('https://fonts.googleapis.com/css?family=Raleway:300,700&display=swap'); */
+        /* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap'); */
+       @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+
+        html, body {
+            height: 100%;
+            zoom: 100%;
+            font-family: 'Work Sans', sans-serif;
+            font-weight:400;
+            font-size: 10px; 
+            background-color: #ffffff;
+        }
+
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: underline;
+            font-family: 'Work Sans', sans-serif;
+            /* font-weight:700; */
+            font-style:normal;
+            /* font-size:24px; */
+            color:#000000;
+            /* text-align:center; */
+            /* line-height:30px; */
+            /* margin-top: 8px; */
+            /* margin-bottom: 8px; */
+        }
+
+        :hover {
+            color: #FF008B;
+        }
+
+        /* grid styles */
+
+        .main {
+        height: auto;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+        }
+
+        .container { 
+        max-width: 960px;
+        width: 300px;
+        /* min-height: 400px; */
+        align-items: center;
+	    text-align: center;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        .column {
+        --columns: 12; /* number of columns in the grid system */
+        /* --width: var(--width-mobile, 0);  */
+                                                    /* default width of the element */
+        width: fit-content;
+        padding: 16px;
+        flex-basis: calc(var(--width) / var(--columns) * 100%);
+        }
+
+        @media (min-width: 300px) {
+        .column {
+            --width: var(--width-desktop, var(--width-mobile, 0));
+                }
+        }
+
+        .background {
+            top:0;
+            height:100%;
+            width:100%;
+            position:fixed;
+            margin:0;
+            left:0;
+            z-index: -1;
+            /* min-height: fit-content; */
+            }
+
+        .header {
+        --width-mobile: 8;
+        justify-content: center;
+        display: flex;
+        padding-top: 50px;
+        }
+
+        .footer {
+        
+        justify-content: left;
+        /* display: flex; */
+        /* align-items: flex-end; */
+        height: 50px;
+        /* padding-top: 50px; */
+        position: fixed;
+        bottom: 0;
+        /* width: 100%; */
+
+
+        /* max-width: 960px; */
+        /* width: 100%; */
+        /* min-height: 400px; */
+        align-items: left;
+	    text-align: left;
+        height: auto;
+        }
+
+        .icons {
+        --width-mobile: 8;
+        justify-content: left;
+        display: flex;
+        align-items: flex-end;
+        min-height: 50px;
+        height: max-content;
+        /* padding-right: 150px; */
+        }
+
+        .results {
+        --width-mobile: 8;
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        min-height: 50px;
+        /* width: 100%; */
+        height: max-content;
+        padding-bottom: 100px;
+        
+        }
+
+        .content {
+        --width-mobile: 8;
+        --width-desktop: 4;
+        padding: 0%;
+        }
+
+        .intensity-logo { 
+            height:260px;
+            width:300px;
+            /* margin: 30px; */
+            }
+
+        .intensity-text-normal{
+            font-family: 'Work Sans', sans-serif;
+            font-weight:500;
+            font-style:normal;
+            font-size:24px;
+            color: #000000;
+            text-align:left;
+            line-height:30.0px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .intensity-text-dark{
+            font-family: 'Work Sans', sans-serif;
+            font-weight:700;
+            font-style:normal;
+            font-size:24px;
+            color:#E93329;
+            text-align:center;
+            line-height:30px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .intensity-text-disabled{
+            font-family: 'Work Sans', sans-serif;
+            font-weight:700;
+            font-style:normal;
+            font-size:24px;
+            color:#9d4e5c;
+            text-align:center;
+            line-height:30px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- <img class="background" src="images/intensity-background.png"> -->
+        <div class="container">
+                <div class="header column">
+                    <a id="#" href="#">
+                        
+                        <img class="intensity-logo" srcset=" images/intensitymedia-splash@3x.png 3x, images/intensitymedia-splash@2x.png 2x, images/intensitymedia-splash@1x.png 1x " src="images/cintensitymedia-splash@1x.png" ></a>
+                </div>
+
+                <div class="icons column">
+                        <p class="intensity-text-normal">
+                        <a href="mailto:office@intensitymedia.ro" target="new"><i style="font-size: 40px" class="fas fa-at"></i></a>
+                        <!-- &nbsp&nbsp<a href="https://www.facebook.com/groups/bencec/" target="new"><i style="font-size: 38px" class="fab fa-facebook"></i></a>&nbsp&nbsp&nbsp&nbsp -->
+                        </p>
+                </div>
+
+    
+
+            </div>
+        
+    <footer class="footer">
+        <!-- <div class="header column"> -->
+        <p class="intensity-text-normal" style="font-size: 10px; font-weight:400; text-align: left">&copy; 2021 Intensity Media SRL | T-Shirts, Print, Design, Photo |  <a href="mailto:office@intensitymedia.ro">office@intensitymedia.ro</a></p>
+        <!-- </div> -->
+    </footer>
+</div>
+</body>
+</html>
